@@ -95,7 +95,11 @@ h1 {
     text-decoration: none;
   }
 
-  .social-links:hover {
+  .social-links img {
+    transition: transform 0.3s ease;
+  }
+
+  .social-links img:hover {
     transform: scale(1.5);
   }
  
