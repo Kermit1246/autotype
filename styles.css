@@ -95,4 +95,7 @@ h1 {
     text-decoration: none;
   }
 
+  .social-links:hover {
+    transform: scale(1.5);
+  }
  
