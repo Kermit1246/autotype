@@ -2,18 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Auto Typer</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap">
 </head>
+<header>
+  <h1>Auto Typer by Kermit</h1>
+  <button id="dark-mode-toggle">
+    <img src="images/sun.png" alt="Sun Icon" id="sun-icon" style="display: none;">
+    <img src="images/moon.png" alt="Moon Icon" id="moon-icon">
+  </button>
+</header>
 <body>
   <main>
-    <h1>Auto Typer by Kermit</h1>
-    <pre></pre><pre></pre>
       <section class="content-container">
         <div class="image-box">
-          <img src="autotyper.png" alt="Auto Typer Image">
+          <img src="images/autotyper.png" alt="Auto Typer Image">
         </div>
         <section class="info-container">
           <section class="features" id="features">
@@ -36,11 +41,13 @@
       </section>
       <pre></pre><pre></pre>
       <a href="https://github.com/Kermit1246/AutoTyper/releases/download/autotyper/AutoTyper.exe">Download</a>
+      <pre></pre><pre></pre>
   </main>
   <footer>
     <ul class="social-links">
-      <li><a href="https://github.com/Kermit1246" target="_blank"><img src="github.png" alt="GitHub"></a></li>
+      <li><a href="https://github.com/Kermit1246" target="_blank"><img src="images/github.png" alt="GitHub"></a></li>
     </ul>
   </footer>
+  <script src="scripts/darkmode.js"></script>
 </body>
 </html>
