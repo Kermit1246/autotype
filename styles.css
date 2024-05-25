@@ -104,7 +104,10 @@ footer {
   background-color: #4b4b4b;
   color: #fff;
   padding: 1.8em;
+  position: fixed;
   text-align: center;
+  bottom: 0;
+  width: 100%
 }
 
 .social-links {
@@ -113,6 +116,7 @@ footer {
   padding: 0;
   display: flex;
   justify-content: center;
+  margin-right: 50px;
 }
 
 .social-links a {
@@ -125,7 +129,7 @@ footer {
 }
 
 .social-links img:hover {
-  transform: scale(1.5);
+  transform: scale(1.8);
 }
 
 .dark-mode {
